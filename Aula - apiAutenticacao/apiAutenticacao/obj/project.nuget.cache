@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DlOmwMpBFQk=",
+  "dgSpecHash": "Ic7mZdWyFvU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.vsferreira23\\Downloads\\UC-7-main\\UC-7-main\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj",
+  "projectFilePath": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.vsferreira23\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\joao.vsferreira23\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

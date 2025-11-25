@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.vsferreira23\\Downloads\\UC-7-main\\UC-7-main\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj": {}
+    "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.vsferreira23\\Downloads\\UC-7-main\\UC-7-main\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj": {
+    "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.vsferreira23\\Downloads\\UC-7-main\\UC-7-main\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj",
+        "projectUniqueName": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj",
         "projectName": "apiAutenticacao",
-        "projectPath": "C:\\Users\\joao.vsferreira23\\Downloads\\UC-7-main\\UC-7-main\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj",
+        "projectPath": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\apiAutenticacao.csproj",
         "packagesPath": "C:\\Users\\joao.vsferreira23\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.vsferreira23\\Downloads\\UC-7-main\\UC-7-main\\Aula - apiAutenticacao\\apiAutenticacao\\obj\\",
+        "outputPath": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

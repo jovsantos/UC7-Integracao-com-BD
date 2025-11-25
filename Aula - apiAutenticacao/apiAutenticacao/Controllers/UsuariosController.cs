@@ -11,11 +11,11 @@ namespace apiAutenticacao.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuariosControllers : ControllerBase
+    public class UsuariosController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public UsuariosControllers(AppDbContext context)
+        public UsuariosController(AppDbContext context)
         {
             _context = context;
         }
@@ -23,7 +23,7 @@ namespace apiAutenticacao.Controllers
         [HttpPost("cadastrar")]
         public async Task<ActionResult> CadastrarUsuarioAsync([FromBody] CadastroUsuarioDTO dadosUsuario)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
@@ -33,7 +33,7 @@ namespace apiAutenticacao.Controllers
 
             if (usuarioExistente != null)
             {
-                return BadRequest(new { Mensagem = "Este email ja esta cadastrado!" });
+                return BadRequest(new { erro = true, Mensagem = "Este email ja esta cadastrado!" });
             }
             Usuario Usuario = new Usuario
             {
@@ -58,5 +58,31 @@ namespace apiAutenticacao.Controllers
                 
                 
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult>Login([FromBody] LoginDTO dadosUsuario) {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+             Usuario? usuarioEncontrado = await _context.Usuarios.
+                FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.Email);
+
+            if (usuarioEncontrado != null)
+            {
+                bool isValidPassword = Verify(dadosUsuario.Senha, usuarioEncontrado.Senha);
+
+                if (isValidPassword )
+                {
+                    return Ok("Login realizado com sucesso!");
+                }
+                    return Unauthorized("Login não realizado. Email ou senha incorretos!");
+            }
+                    return NotFound("Usuário não encontrado! ");
+       }
+
+
     }
 }
