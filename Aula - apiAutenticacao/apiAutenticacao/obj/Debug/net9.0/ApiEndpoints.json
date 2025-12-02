@@ -18,7 +18,7 @@
   {
     "ContainingType": "apiAutenticacao.Controllers.UsuariosController",
     "Method": "Login",
-    "RelativePath": "api/Usuarios/login",
+    "RelativePath": "api/Usuarios/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

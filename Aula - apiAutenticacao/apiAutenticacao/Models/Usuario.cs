@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace apiAutenticacao.Models
 {
@@ -17,14 +18,14 @@ namespace apiAutenticacao.Models
         [Required(ErrorMessage ="O email é um campo obrigatório")]
         [EmailAddress(ErrorMessage = "O formato do email é inválido")]
         [StringLength(150, ErrorMessage ="O email deve ter no máximo 150 caracteres")]
-
         public string Email { get; set; } = string.Empty;
 
+        [JsonIgnore]
         [Required(ErrorMessage ="A senha é obrigatória")]
         [StringLength(255, ErrorMessage ="A senha deve ter no máximo 255 caracteres")]
-
         public string Senha { get; set; } = string.Empty;
 
+        [JsonIgnore]
         [Required(ErrorMessage = "A senha é obrigatória")]
         [Compare("Senha", ErrorMessage = "As senhas não conferem")]
 
