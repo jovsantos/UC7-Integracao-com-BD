@@ -11,9 +11,10 @@ namespace apiAutenticacao.Models.DTO
 
         [Required(ErrorMessage = "A senha é obrigatória")]
         [StringLength(100, MinimumLength = 6, ErrorMessage = "A senha deve ter entre 6 e 100 caracteres")]
-        public string SenhaAtual { get; set; }
+        public string SenhaAtual { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "A senha é obrigatória")]
+        [StringLength(100, MinimumLength = 6, ErrorMessage = "A senha deve ter entre 6 e 100 caracteres")]
         public string NovaSenha { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "A confirmação de senha é obrigatória")]

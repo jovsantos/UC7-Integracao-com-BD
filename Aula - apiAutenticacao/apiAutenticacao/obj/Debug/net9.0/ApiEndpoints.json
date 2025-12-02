@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "apiAutenticacao.Controllers.UsuariosController",
+    "Method": "AlterarSenhaAsync",
+    "RelativePath": "api/Usuarios/AlterarSenha",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dadosUsuario",
+        "Type": "apiAutenticacao.Models.DTO.AlterarSenhaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiAutenticacao.Controllers.UsuariosController",
     "Method": "CadastrarUsuarioAsync",
     "RelativePath": "api/Usuarios/cadastrar",
     "HttpMethod": "POST",

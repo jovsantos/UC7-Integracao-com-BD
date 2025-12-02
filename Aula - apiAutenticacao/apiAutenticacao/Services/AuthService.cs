@@ -4,6 +4,7 @@ using apiAutenticacao.Models.DTO;
 using apiAutenticacao.Models.Response;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using static BCrypt.Net.BCrypt;
 
 namespace apiAutenticacao.Services
@@ -92,7 +93,7 @@ namespace apiAutenticacao.Services
             
         }
 
-        public async Task<ResponseAlterar>AlterarSenhaAsync(AlterarSenhaDTO dadosAlterarSenhaDTO)
+        public async Task<ResponseAlterar> AlterarSenhaAsync(AlterarSenhaDTO dadosAlterarSenhaDTO)
         {
             Usuario? usuarioExistente = await _context.Usuarios.
 
@@ -104,12 +105,52 @@ namespace apiAutenticacao.Services
                 {
                   Erro = true,
                    Message = "Usuário não encontrado!",
+                };
+            }
 
+            bool isValidPassword = Verify(dadosAlterarSenhaDTO.SenhaAtual, usuarioExistente.Senha);
+
+            if (!isValidPassword)
+            {
+                return new ResponseAlterar
+                {
+                    Erro = true,
+                    Message = "Senha atual inválida!",
                 };
             }
 
 
+            if (dadosAlterarSenhaDTO.NovaSenha != dadosAlterarSenhaDTO.ConfirmarSenha)
+            {
+                return new ResponseAlterar
+                {
+                    Erro = true,
+                    Message = "A nova senha e a confirmação de senha não conferem!",
+                };
+            }
+
+            usuarioExistente.Senha = HashPassword(dadosAlterarSenhaDTO.NovaSenha);
+            
+
+            Usuario usuario = new Usuario()
+            {
+                Email = dadosAlterarSenhaDTO.Email,
+                Senha = HashPassword(dadosAlterarSenhaDTO.SenhaAtual),
+            };
+
+            _context.Usuarios.Update(usuarioExistente);
+            await _context.SaveChangesAsync();
+
+            return new ResponseAlterar
+            {
+                Erro = false,
+                Message = "Senha alterada com sucesso!",
+                Usuario = usuarioExistente
+
+            };
+
         }
+        
         
     }
 }

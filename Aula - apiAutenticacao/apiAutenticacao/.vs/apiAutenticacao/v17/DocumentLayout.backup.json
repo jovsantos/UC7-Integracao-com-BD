@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\response\\responsealterar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responsealterar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\response\\responselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\joao.vsferreira23\\desktop\\uc7\\uc7-integra-o-com-bd\\aula - apiautenticacao\\apiautenticacao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -59,6 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAcwI8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:56:55.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseAlterar.cs",
+              "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseAlterar.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ResponseAlterar.cs",
+              "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseAlterar.cs",
+              "RelativeToolTip": "Models\\Response\\ResponseAlterar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:43:58.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlterarSenhaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\AlterarSenhaDTO.cs",
+              "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\AlterarSenhaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:24:32.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
@@ -71,13 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ResponseCadastro.cs",
               "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseCadastro.cs",
               "RelativeDocumentMoniker": "Models\\Response\\ResponseCadastro.cs",
               "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseCadastro.cs",
               "RelativeToolTip": "Models\\Response\\ResponseCadastro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T23:04:55.368Z",
               "EditorCaption": ""
@@ -97,59 +136,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T00:14:44.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "Models\\DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T00:11:34.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T23:09:36.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CadastroUsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\CadastroUsuarioDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\CadastroUsuarioDTO.cs",
               "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\CadastroUsuarioDTO.cs",
               "RelativeToolTip": "Models\\DTO\\CadastroUsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T23:02:38.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -158,19 +171,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T22:53:46.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\joao.vsferreira23\\Desktop\\UC7\\UC7-Integra-o-com-BD\\Aula - apiAutenticacao\\apiAutenticacao\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T01:07:13.44Z",
               "EditorCaption": ""
             },
             {
